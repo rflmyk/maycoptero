@@ -1,0 +1,432 @@
+	/*animation*/
+	@-webkit-keyframes mover {
+		from {
+			background-position: 50% 100%
+		}
+		to { 
+			background-position: 50% 0%
+		}
+	}
+	@-o-keyframes mover {
+		from {
+			background-position: 50% 100%
+		}
+		to { 
+			background-position: 50% 0%
+		}
+	}
+	@-moz-keyframes mover {
+		from {
+			background-position: 50% 100%
+		}
+		to { 
+			background-position: 50% 0%
+		}
+	}
+	@keyframes mover {
+		from {
+			background-position: 50% 100%
+		}
+		to { 
+			background-position: 50% 0%
+		}
+	}
+
+	@-webkit-keyframes rodar {
+		100% {
+			-webkit-transform:rotate(360deg);
+		}
+	}
+	@-o-keyframes rodar {
+		100% {
+			-o-transform:rotate(360deg);
+		}
+	}
+	@-moz-keyframes rodar {
+		100% {
+			-moz-transform:rotate(360deg);
+		}
+	}
+	@keyframes rodar {
+		100% {
+			-transform:rotate(360deg);
+		}
+	}
+
+	@-webkit-keyframes opacidade1 {
+	 0% {
+	   opacity:1;
+	 }
+	 25% {
+	    opacity:1;
+	 }
+	 50% {
+	    opacity:1;
+	 }
+	 75% {
+	    opacity:1;
+	 }
+	 100% {
+	    opacity:1;
+	 }
+	}
+	@-o-keyframes opacidade1 {
+	 0% {
+	   opacity:1;
+	 }
+	 25% {
+	    opacity:1;
+	 }
+	 50% {
+	    opacity:1;
+	 }
+	 75% {
+	    opacity:1;
+	 }
+	 100% {
+	    opacity:1;
+	 }
+	}
+	@-moz-keyframes opacidade1 {
+	 0% {
+	   opacity:1;
+	 }
+	 25% {
+	    opacity:1;
+	 }
+	 50% {
+	    opacity:1;
+	 }
+	 75% {
+	    opacity:1;
+	 }
+	 100% {
+	    opacity:1;
+	 }
+	}
+	@keyframes opacidade1 {
+	 0% {
+	   opacity:1;
+	 }
+	 25% {
+	    opacity:1;
+	 }
+	 50% {
+	    opacity:1;
+	 }
+	 75% {
+	    opacity:1;
+	 }
+	 100% {
+	    opacity:1;
+	 }
+	}
+
+	@-webkit-keyframes Voando {
+		 0% {
+		   opacity:1;
+		 }
+		 25% {
+		   opacity:.7;
+		 }
+		 50% {
+		   opacity:.5;
+		 }
+		 75% {
+		   opacity:.3;
+		 }
+		 100% {
+		   opacity:0;
+		 }
+	}
+	@-o-keyframes Voando {
+		 0% {
+		   opacity:1;
+		 }
+		 25% {
+		   opacity:.7;
+		 }
+		 50% {
+		   opacity:.5;
+		 }
+		 75% {
+		   opacity:.3;
+		 }
+		 100% {
+		   opacity:0;
+		 }
+	}
+	@-moz-keyframes Voando {
+		 0% {
+		   opacity:1;
+		 }
+		 25% {
+		   opacity:.7;
+		 }
+		 50% {
+		   opacity:.5;
+		 }
+		 75% {
+		   opacity:.3;
+		 }
+		 100% {
+		   opacity:0;
+		 }
+	}
+	@keyframes Voando {
+		 0% {
+		   opacity:1;
+		 }
+		 25% {
+		   opacity:.7;
+		 }
+		 50% {
+		   opacity:.5;
+		 }
+		 75% {
+		   opacity:.3;
+		 }
+		 100% {
+		   opacity:0;
+		 }
+	}
+
+	
+
+
+
+	@-webkit-keyframes passandoNatela {
+		0%{
+			bottom: -30%;
+			opacity: 1;
+		}
+		50%{
+			bottom: 50%;
+			opacity: 1;
+		}
+		99%{
+			opacity: 1;
+		}
+		100%{
+			bottom:130%;
+			opacity: 0;
+		}
+	}
+	@-o-keyframes passandoNatela {
+		0%{
+			bottom: -30%;
+			opacity: 1;
+		}
+		50%{
+			bottom: 50%;
+			opacity: 1;
+		}
+		99%{
+			opacity: 1;
+		}
+		100%{
+			bottom:130%;
+			opacity: 0;
+		}
+	}
+	@-moz-keyframes passandoNatela {
+		0%{
+			bottom: -30%;
+			opacity: 1;
+		}
+		50%{
+			bottom: 50%;
+			opacity: 1;
+		}
+		99%{
+			opacity: 1;
+		}
+		100%{
+			bottom:130%;
+			opacity: 0;
+		}
+	}
+	@keyframes passandoNatela {
+		0%{
+			bottom: -30%;
+			opacity: 1;
+		}
+		50%{
+			bottom: 50%;
+			opacity: 1;
+		}
+		99%{
+			opacity: 1;
+		}
+		100%{
+			bottom:130%;
+			opacity: 0;
+		}
+	}
+
+
+
+
+	@-webkit-keyframes nuvemPassandoNatela {
+			from{
+				top: -20%
+			}
+			to{
+				top: 150%;
+				left:120%;
+			}
+	}
+	@-o-keyframes nuvemPassandoNatela {
+			from{
+				top: -20%
+			}
+			to{
+				top: 150%;
+				left:120%;
+			}
+	}
+	@-moz-keyframes nuvemPassandoNatela {
+			from{
+				top: -20%
+			}
+			to{
+				top: 150%;
+				left:120%;
+			}
+	}
+	@keyframes nuvemPassandoNatela {
+			from{
+				top: -20%
+			}
+			to{
+				top: 150%;
+				left:120%;
+			}
+	}		
+	/*elements*/	
+	body{
+		width: 100%;
+		margin:0;
+		padding:0;
+		border:0;
+		background: url(map.svg) repeat-y #34BF00;
+		-webkit-animation: mover 60s linear infinite;
+		-moz-animation: mover 60s linear infinite;
+		-o-animation: mover 60s linear infinite;
+		animation: mover 60s linear infinite;		
+	}
+	.animacao{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: absolute;
+	}
+	#nuvem1{
+		position: absolute;
+		top: -350px;
+		left: 350px;
+		z-index: 99;			
+		-webkit-animation: nuvemPassandoNatela 30s linear infinite 12s;
+		-moz-animation: nuvemPassandoNatela 30s linear infinite 12s;
+		-o-animation: nuvemPassandoNatela 30s linear infinite 12s;
+		animation: nuvemPassandoNatela 30s linear infinite 12s;			
+	}	
+	#contentHelicoptero , #Helice , #helicoptero{ width: 350px; height: 350px; position: absolute}
+	#Helice{
+		-webkit-animation: rodar .3s linear infinite;
+		-moz-animation: rodar .3s linear infinite;
+		-o-animation: rodar .3s linear infinite;
+		animation: rodar .3s linear infinite;
+	}
+	.bandoPassaros{
+		position: absolute;
+		bottom: -300px;
+		left:125px;
+		-webkit-animation: passandoNatela 10s linear alternate;
+		-moz-animation: passandoNatela 10s linear alternate;
+		-o-animation: passandoNatela 10s linear alternate;
+		animation: passandoNatela 10s linear alternate;		
+	}
+	.bandoPassaros2{
+		position: absolute;
+		bottom: -300px;
+		left:1000px;
+		-webkit-animation: passandoNatela 100s linear alternate;
+		-moz-animation: passandoNatela 100s linear alternate;
+		-o-animation: passandoNatela 100s linear alternate;
+		animation: passandoNatela 100s linear alternate;		
+	}	
+	.passaro{
+		position: absolute;
+		transform:rotate(-90deg);
+		-ms-transform:rotate(-90deg); /* IE 9 */
+		-moz-transform:rotate(-90deg); /* Firefox */
+		-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+		-o-transform:rotate(-90deg); /* Opera */				
+	}
+	.passarof0{
+		z-index: 0 !important;
+		opacity: 1 !important;
+	  -webkit-animation-name: opacidade1;		
+	}
+	.passaro img{
+		position: absolute;
+		height: 100%;
+		width:100%
+	}
+	.passaro img {
+	  -webkit-animation-name: Voando;
+	  -webkit-animation-timing-function: linear;
+	  -webkit-animation-iteration-count: infinite;
+	  -webkit-animation-duration: 1s;
+
+	  -moz-animation-name: Voando;
+	  -moz-animation-timing-function: linear;
+	  -moz-animation-iteration-count: infinite;
+	  -moz-animation-duration: 1s;
+
+	  -o-animation-name: Voando;
+	  -o-animation-timing-function: linear;
+	  -o-animation-iteration-count: infinite;
+	  -o-animation-duration: 1s;
+
+	  animation-name: Voando;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+	  animation-duration: 1s;
+	}
+	.passaro img:nth-of-type(5) {
+		z-index: 0 !important;
+		opacity: 1 !important;
+	  -webkit-animation-name: opacidade1;		
+	}
+	.passaro img:nth-of-type(4) {
+	  -webkit-animation-delay: 2s;
+	  -moz-animation-delay: 2s;
+	  -o-animation-delay: 2s;
+	  animation-delay: 2s;
+	}
+	.passaro img:nth-of-type(3) {
+	  -webkit-animation-delay: 1s;
+	  -moz-animation-delay: 1s;
+	  -o-animation-delay: 1s;
+	  animation-delay: 1s;
+	}
+	.passaro img:nth-of-type(2) {
+	  -webkit-animation-delay: 0;
+	  -moz-animation-delay: 0;
+	  -o-animation-delay: 0;
+	  animation-delay: 0;
+	}
+	.passaro img:nth-of-type(1) {
+	  -webkit-animation-delay: 3s;
+	  -moz-animation-delay: 3s;
+	  -o-animation-delay: 3s;
+	  animation-delay: 3s;
+	}
+
+.fb-like{
+	position: absolute !important;
+	bottom: 10px !important;
+	right: 10px !important;
+}
